@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Factorials</title>
+</head>
+<body>
+    <h1>Factorials from 3 to 8</h1>
+    <ul>
+        {% for number, fact in factorials.items %}
+            <li>Factorial of {{ number }} is {{ fact }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
